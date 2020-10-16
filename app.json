@@ -1,0 +1,37 @@
+{
+  // 配置页面路径
+  "pages": [   
+    "pages/home/home",
+    "pages/about/about"
+  ],
+  //配置窗口  
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",  //只能为白色和黑色
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",  //设置下拉刷新时的背景颜色
+    "backgroundTextStyle": "light", //设置下拉刷新时的样式
+    "enablePullDownRefresh": false  //下拉刷新 true打开
+  },
+  //设置底部tabbar
+"tabBar": {
+  "selectedColor": "#", //选中时文字的颜色
+  "list": [
+    //tabbar中第一个item
+    {
+      "pagePath": "pagePath", //点击item所对应的路径
+      "text": "text",   //默认文字
+      "iconPath": "iconPath",  //未选中图标
+      "selectedIconPath": "selectedIconPath"  //选中图标
+    },
+    //tabbar中第二个item
+    {
+      "pagePath": "pagePath", 
+      "text": "text",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }
+  ]
+}
+
+}

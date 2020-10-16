@@ -1,0 +1,7 @@
+{
+  //单独配置全局配置文件中的 window属性
+  "usingComponents": {},
+  "navigationBarTitleText": "主页" ,
+  "navigationBarBackgroundColor": "#000000",
+  "enablePullDownRefresh": true
+}
